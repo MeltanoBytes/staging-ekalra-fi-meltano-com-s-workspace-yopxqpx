@@ -40,6 +40,9 @@ plugins:
       transformers:
       - name: dbt
         variant: dbt-labs
+  - name: files-context-financial-services
+    variant: matatika
+    pip_url: git+https://github.com/meltano/files-context-financial-services.git@v0.1.2
   utilities:
   - name: matatika
     variant: matatika

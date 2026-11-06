@@ -1,0 +1,13 @@
+{
+  "plugin_type": "files",
+  "name": "files-context-financial-services",
+  "namespace": "files_context_financial_services",
+  "variant": "matatika",
+  "label": "Financial Services Context",
+  "repo": "https://github.com/meltano/files-context-financial-services",
+  "pip_url": "git+https://github.com/meltano/files-context-financial-services.git@v0.1.2",
+  "description": "Industry context for financial services: datasets with no query that brief the people and AI\nassistants working in a workspace on the industry - its segments and source systems, core data\nmodel, key metrics, how to model its data in dbt, and how to handle it.\n\nMeltano Cloud adds it when a workspace's industry is Financial Services\n(OrganisationContextService.INDUSTRY_BUNDLES).",
+  "update": {
+    "*.yml": "true"
+  }
+}
