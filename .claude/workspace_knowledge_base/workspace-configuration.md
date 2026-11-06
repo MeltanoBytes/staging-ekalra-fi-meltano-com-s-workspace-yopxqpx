@@ -49,6 +49,14 @@ The organisation's industry is in `analyze/datasets/organisation-context.yml` (i
 - **Timeout:** 3600s
 - **Max retries:** 0
 
+### Meltano Clouds (`meltano-clouds`)
+
+- **Type:** INGESTION
+- **Schedule:** `@daily`
+- **Data components:** `tap-meltano-cloud--meltano-clouds` (tap-meltano-cloud, meltanolabs) → `Warehouse` (target-postgres, matatika)
+- **Timeout:** 3600s
+- **Max retries:** 0
+
 ### Model Lineage (`model-lineage`)
 
 - **Type:** WORKFLOW
